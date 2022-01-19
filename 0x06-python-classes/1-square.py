@@ -3,4 +3,6 @@
     1. Square with size
 """
 class Square:
-    s
+    """Square"""
+    def __init__(self, size):
+        self.__size = size
