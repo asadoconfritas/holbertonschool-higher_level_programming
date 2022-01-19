@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""
-    2. Size validation
-"""
+"""2. Size validation """
+
+
 class Square:
     """Square"""
     def __init__(self, size=0):
