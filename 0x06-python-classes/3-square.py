@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""2. Size validation """
+"""3. Area of a square"""
 
 
 class Square:
