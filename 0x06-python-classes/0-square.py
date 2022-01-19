@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""
-    0. My first square
-"""
+""" 0. My first square """
+
+
 class Square:
     """Square"""
     pass
