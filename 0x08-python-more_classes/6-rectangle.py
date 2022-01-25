@@ -20,12 +20,12 @@ class Rectangle:
             Rectangle.number_of_instances += 1
 
         @property
-        def width(self)
+        def width(self):
         """width"""
         return self.__width
 
         @property
-        def height(self)
+        def height(self):
         """height"""
         return self.__height
 
