@@ -72,7 +72,7 @@ class Rectangle:
         """repr"""
         a = str(self.__width)
         b = str(self.__height)
-        return 'Rectangle({}, {}'.format(a, b)
+        return 'Rectangle({}, {})'.format(a, b)
 
     def __del__(self):
         """del"""
