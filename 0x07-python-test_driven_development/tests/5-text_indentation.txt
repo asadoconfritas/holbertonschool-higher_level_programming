@@ -1,0 +1,18 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>> text_indentation("Best. School")
+Best.
+<BLANKLINE>
+School
+
+>>> text_indentation("""Rodriguez: Pumita, Marichal, Izquierdo, Candido. Ocampo, Yona Rodriguez, Oliva, Castro? Gigliotti, Ramirez""")
+Rodriguez:
+<BLANKLINE>
+Pumita, Marichal, Izquierdo, Candido.
+<BLANKLINE>
+Ocampo, Yona Rodriguez, Oliva, Castro?
+<BLANKLINE>
+Gigliotti, Ramirez
+
+>>> text_indentation()
+Traceback (most recent call last):
+TypeError: text_indentation() missing 1 required positional argument: 'text'
