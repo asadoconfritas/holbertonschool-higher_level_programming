@@ -6,8 +6,8 @@ class MyInt(int):
     """class doc"""
     def __eq__(self, other):
         """eq doc"""
-        return (a is b)
+        return (self is other)
 
     def __ne__(self, other):
         """ne doc"""
-        return (a is not b)
+        return (self is not other)
