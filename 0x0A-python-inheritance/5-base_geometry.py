@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""mod doc"""
+"""module doc"""
 
 
 def BaseGeometry:
-    """base geo"""
+    """class doc"""
     pass

@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""mod doc"""
+"""module doc"""
 
 
 def BaseGeometry:
-    """base geo"""
-    
+    """class doc"""
     def area(self):
         raise Exception("area() is not implemented")
