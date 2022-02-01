@@ -3,9 +3,9 @@
 
 
 class BaseGeometry:
-    """base geo"""
-    
+    """base geo""" 
     def area(self):
+        """area doc"""
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
