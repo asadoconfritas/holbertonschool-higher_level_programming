@@ -2,7 +2,7 @@
 """mod doc"""
 
 
-def BaseGeometry:
+class BaseGeometry:
     """base geo"""
     
     def area(self):

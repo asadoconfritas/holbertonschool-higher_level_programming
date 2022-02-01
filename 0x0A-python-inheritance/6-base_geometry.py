@@ -2,7 +2,7 @@
 """module doc"""
 
 
-def BaseGeometry:
+class BaseGeometry:
     """class doc"""
     def area(self):
         raise Exception("area() is not implemented")

@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-"""module doc"""
+"""
+    base geo
+    module
+    return: algo
+"""
 
 
-def BaseGeometry:
-    """class doc"""
+class BaseGeometry:
+    """ BaseGeometry """
     pass
