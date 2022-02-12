@@ -8,11 +8,11 @@ import json
 
 
 class Base:
-    """ base """
+    """ base doc """
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """ init """
+        """ init doc """
         if id is not None:
             self.id = id
         else:
@@ -48,7 +48,7 @@ class Base:
 
     @classmethod
     def create(cls, **dictionary):
-        """ create """
+        """ create doc """
         if cls.__name__ == 'Rectangle':
             rett = cls(1, 1)
         else:

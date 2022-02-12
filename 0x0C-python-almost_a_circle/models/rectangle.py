@@ -8,9 +8,9 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    """ rectangle """
+    """ rectangle doc """
     def __init__(self, width, height, x=0, y=0, id=None):
-        """ init """
+        """ init doc """
         super().__init__(id)
         self.__width = width
         self.__height = height
@@ -19,7 +19,7 @@ class Rectangle(Base):
 
     @property
     def width(self):
-        """ width """
+        """ width get """
         return self.__width
 
     @width.setter
@@ -33,7 +33,7 @@ class Rectangle(Base):
 
     @property
     def height(self):
-        """ height """
+        """ height get """
         return self.__height
 
     @height.setter
@@ -74,11 +74,11 @@ class Rectangle(Base):
         self.__y = y
 
     def area(self):
-        """ area """
+        """ area doc """
         return self.__width * self.__height
 
     def display(self):
-        """ display """
+        """ display doc """
         print(self.__y * '\n', end="")
         for i in range(self.height):
             display = ""
@@ -87,12 +87,12 @@ class Rectangle(Base):
             print(display)
 
     def __str__(self):
-        """ self """
+        """ self str """
         return f"[Rectangle] ({self.id}) {self.x}/{self.y} -\
 {self.width}/{self.height}"
 
     def update(self, *args, **kwargs):
-        """ upd """
+        """ upd doc """
         lrg = len(args)
         if lrg >= 1:
             setattr(self, "id", args[0])
@@ -108,7 +108,7 @@ class Rectangle(Base):
             setattr(self, key, value)
 
     def to_dictionary(self):
-        """ todic """
+        """ to dic """
         attr = ['x', 'y', 'id', 'height', 'width']
         res = {}
         for key in attr:
