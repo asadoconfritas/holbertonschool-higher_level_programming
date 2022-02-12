@@ -40,7 +40,7 @@ class Base:
 
     @staticmethod
     def from_json_string(json_string):
-        """ from json """
+        """from json"""
         auxlst = []
         if json_string is None:
             return auxlst
@@ -48,7 +48,7 @@ class Base:
 
     @classmethod
     def create(cls, **dictionary):
-        """ create doc """
+        """create doc"""
         if cls.__name__ == 'Rectangle':
             rett = cls(1, 1)
         else:
@@ -58,7 +58,7 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
-        """ load from """
+        """load from"""
         filern = str(cls.__name__) + ".json"
         try:
             with open(filern, "r") as f:
