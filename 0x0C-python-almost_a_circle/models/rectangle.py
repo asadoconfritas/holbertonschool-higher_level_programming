@@ -53,7 +53,7 @@ class Rectangle(Base):
         return self.__x
 
     @x.setter
-    def x(self, value):
+    def x(self, x):
         """ x setter """
         if type(x) is not int:
             raise TypeError("x must be an integer")
@@ -67,7 +67,7 @@ class Rectangle(Base):
         return self.__y
         
     @y.setter
-    def y(self, value):
+    def y(self, y):
         """ y setter """
         if type(y) is not int:
             raise TypeError("y must be an integer")
