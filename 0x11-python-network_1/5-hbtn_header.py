@@ -5,5 +5,6 @@ from sys import argv
 
 
 if __name__ == "__main__":
-    res = requests.get(argv[1])
-    print(res.headers.get('X-Request-Id'))
+    if argv[1] is not None:
+        res = requests.get(argv[1])
+        print(res.headers.get('X-Request-Id'))
