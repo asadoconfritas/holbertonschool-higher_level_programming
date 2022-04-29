@@ -15,4 +15,4 @@ if __name__ == "__main__":
         data = res.json()
         print(data.get('id'))
     except Exception as ex:
-        print('Invalid credentials')
+        print('Not a valid JSON')
