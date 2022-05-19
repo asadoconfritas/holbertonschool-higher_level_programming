@@ -1,11 +1,11 @@
 #!/usr/bin/node
 // Prints the title of certain Star Wars movie
-const argv = process.argv
-const axios = require('axios').default
+const argv = process.argv;
+const axios = require('axios').default;
 axios.get('https://swapi-api.hbtn.io/api/films/' + argv[2] + '/')
   .then(function (response) {
-    console.log(response.data.title)
+    console.log(response.data.title);
   })
   .catch(function (error) {
-    console.log('code: ' + error.response.status)
-  })
+    console.log('code: ' + error.response.status);
+  });
