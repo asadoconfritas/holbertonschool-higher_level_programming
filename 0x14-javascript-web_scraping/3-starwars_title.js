@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// Prints the correspondent title of a Star Wars movie
+// Prints the title of a certain Star Wars movie
 const argv = process.argv;
 const axios = require('axios').default;
 axios.get('https://swapi-api.hbtn.io/api/films/' + argv[2] + '/')
