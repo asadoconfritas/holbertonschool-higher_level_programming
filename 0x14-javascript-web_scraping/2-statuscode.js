@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// Writes some string to some file
+// Writes some string into some file
 const argv = process.argv
 const axios = require('axios').default
 axios.get(argv[2])
